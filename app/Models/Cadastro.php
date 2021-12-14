@@ -15,6 +15,6 @@ class Cadastro extends Model
         'email',
         'password',
         'phone',
-        'cidade'
+        'city'
     ];
 }

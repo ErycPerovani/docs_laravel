@@ -7,7 +7,7 @@
     <title>LiberAcademy</title>
 </head>
 <body>
-    <form action="/cadastrade" method="POST">
+    <form action="/cliente/st" method="POST">
     @csrf
         <label>Nome: </label>
         <input type="text" name="name" >
@@ -22,7 +22,7 @@
         <input type="text" name="phone">
         <br><br>
         <label>Cidade: </label>
-        <input type="text" name="cidade">
+        <input type="text" name="city">
         <br><br>
         <button>Cadastrar</button>
     </form>

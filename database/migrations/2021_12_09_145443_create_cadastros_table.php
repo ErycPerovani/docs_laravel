@@ -26,7 +26,7 @@ class CreateCadastrosTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('phone');
-            $table->string('cidade');
+            $table->string('city');
             $table->timestamps(); //created_at _|_ updated_at
         });
         

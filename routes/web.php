@@ -11,15 +11,15 @@ Route::get('/', function () {
 
 
 //Route of created of client
-Route::post('/cliente/store', function (Request $request) {
+Route::post('/cliente/st', function (Request $request) {
     Cadastro::create([
         'name' => $request->name,
         'email' => $request->email,
         'password' => $request->password,
         'phone' => $request->phone,
-        'cidade' => $request->cidade,
+        'cidade' => $request->city,
     ]);
-    return "2 patinhos na lagoa";
+    return "Cadastrado com Sucesso!";
 });
 
 Route::get('/cliente/show/{id}', function($id) {
